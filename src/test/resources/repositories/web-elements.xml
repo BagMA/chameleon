@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages xmlns="http://chameleon.ibs-qa.ru/schema/web-elements">
+    <Page name="Главная страница">
+        <Button name="Песочница" locator="//a[@id='navbarDropdown']"/>
+        <Collection locator="//div[@class='dropdown-menu show']" name="выпадающий список"/>
+    </Page>
+</Pages>
